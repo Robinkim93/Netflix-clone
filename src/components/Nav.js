@@ -32,7 +32,7 @@ function Nav() {
         className="nav__logo"
         alt="Netflix logo"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/300px-Netflix_2015_logo.svg.png"
-        onClick={() => window.location.reload()}
+        onClick={() => (window.location.href = "/Netflix-clone")}
       />
       <input
         value={searchValue}

@@ -27,7 +27,7 @@ function Row({ title, id, fetchUrl, isLargeRow }) {
   };
 
   return (
-    <section className="row">
+    <section className="row" key={title}>
       <h2>{title}</h2>
 
       <div className="slider">
